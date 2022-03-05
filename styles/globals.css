@@ -46,10 +46,10 @@ bold {
 
 @font-face {
   font-family: 'Mandatory Plaything';
-  src: url('../public/fonts/MandatoryPlaything-nRRd0.eot');
-  src: url('../public/fonts/MandatoryPlaything-nRRd0.eot?#iefix') format('embedded-opentype'),
-       url('../public/fonts/MandatoryPlaything-nRRd0.woff2') format('woff2'),
-       url('../public/fonts/MandatoryPlaything-nRRd0.woff') format('woff'),
-       url('../public/fonts/MandatoryPlaything-nRRd0.ttf')  format('truetype'),
-       url('../public/fonts/MandatoryPlaything-nRRd0.svg#Mandatory Plaything') format('svg');
+  src: url('/fonts/MandatoryPlaything-nRRd0.eot');
+  src: url('/fonts/MandatoryPlaything-nRRd0.eot?#iefix') format('embedded-opentype'),
+       url('/fonts/MandatoryPlaything-nRRd0.woff2') format('woff2'),
+       url('/fonts/MandatoryPlaything-nRRd0.woff') format('woff'),
+       url('/fonts/MandatoryPlaything-nRRd0.ttf')  format('truetype'),
+       url('/fonts/MandatoryPlaything-nRRd0.svg#Mandatory Plaything') format('svg');
 }
