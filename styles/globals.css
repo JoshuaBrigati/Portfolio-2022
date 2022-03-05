@@ -1,9 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+body.blur {
+  overflow: hidden;
+}
+body.blur #content > * {
+  filter: blur(5px) brightness(0.7);
+  transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+  pointer-events: none;
+  user-select: none;
+}
+
+html {
+  background: radial-gradient(ellipse at bottom,#1b2735 0,#090a0f 100%);
+  height: 100%;
+  background-attachment: fixed;
+  -webkit-text-size-adjust: 100%;
 }
 
 a {
@@ -13,4 +31,25 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+bold {
+  font-weight: 700;
+}
+
+@import './Home.css';
+@import './FloatingEmail.css';
+@import './Navbar.css';
+@import './About.css';
+@import './Projects.css';
+@import './Footer.css';
+
+@font-face {
+  font-family: 'Mandatory Plaything';
+  src: url('../public/fonts/MandatoryPlaything-nRRd0.eot');
+  src: url('../public/fonts/MandatoryPlaything-nRRd0.eot?#iefix') format('embedded-opentype'),
+       url('../public/fonts/MandatoryPlaything-nRRd0.woff2') format('woff2'),
+       url('../public/fonts/MandatoryPlaything-nRRd0.woff') format('woff'),
+       url('../public/fonts/MandatoryPlaything-nRRd0.ttf')  format('truetype'),
+       url('../public/fonts/MandatoryPlaything-nRRd0.svg#Mandatory Plaything') format('svg');
 }

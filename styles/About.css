@@ -1,0 +1,141 @@
+.about-section {
+  padding-top: 5rem;
+  padding-bottom: 15rem;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+
+.parallax-outer {
+  z-index: -1;
+  position: absolute;
+}
+
+.parallax-outer p, .parallax-outer svg {
+  color: rgb(48, 48, 48);
+  z-index: -1;
+  left: 0px;
+  right: 0px;
+  font-weight: 900;
+  user-select: none;
+}
+
+.about-inner {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-inner h1 {
+  margin: 0;
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.1;
+}
+
+@media (min-width: 701px) and (max-width: 1500px) {
+  .about-inner {
+    max-width: 1500px;
+  }
+}
+
+.top-left, .bottom-left {
+  text-align: left;
+  position: relative;
+}
+
+.middle-right {
+  display: flex;
+  justify-content: flex-end;
+  margin: 55px 0;
+}
+
+@media (min-width: 701px) {
+  .top-left p, .middle-right p, .bottom-left p  {
+    width: 32vw;
+    font-size: 14px;
+    -webkit-transition-delay: 310ms;
+    transition-delay: 310ms;
+  }
+}
+
+.top-left p, .middle-right p, .bottom-left p {
+  line-height: 1.6;
+  max-width: 500px;
+}
+
+@media (max-width: 1300px) {
+  .nextjs {
+    top: 375px !important;
+    left: 60% !important;
+  }
+}
+
+@media (max-width: 1080px) {
+  .about-inner h1 {
+    font-size: 2rem;
+  }
+  .about-inner p {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 786px) {
+  .solidity {
+    top: 775px !important;
+  }
+  .sass {
+    top: 700px !important;
+  }
+}
+@media (max-width: 755px) {
+  .html {
+    top: 350px !important;
+  }
+}
+@media (max-width: 730px) {
+  .css {
+    top: 30% !important;
+  }
+}
+
+@media (max-width: 700px) {
+  .react {
+    top: -100px !important;
+  }
+  .html {
+    left: -50px !important;
+  }
+  .css {
+    top: 28% !important;
+  }
+  .sass {
+    top: 600px !important;
+    left: 45% !important;
+  }
+  .solidity {
+    top: 700px !important;
+    left: 25% !important;
+  }
+}
+
+@media (max-width: 465px) {
+  .about-inner h1 {
+    font-size: 1.5rem;
+  }
+
+  .node {
+    left: 98% !important;
+  }
+  .sass {
+    top: 800px !important;
+  }
+  .solidity {
+    top: 900px !important;
+    left: 0% !important;
+  }
+  .bitcoin {
+    left: 100% !important;
+  }
+}
