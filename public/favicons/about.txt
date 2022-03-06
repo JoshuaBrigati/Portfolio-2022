@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Montserrat Subrayada
+- Font Author: Copyright (c) 2011-2012, Julieta Ulanovsky (julieta.ulanovsky@gmail.com), with Reserved Font Names 'Montserrat'
+- Font Source: http://fonts.gstatic.com/s/montserratsubrayada/v15/U9MD6c-o9H7PgjlTHThBnNHGVUORwteQQE8LYuceqGT-.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))
