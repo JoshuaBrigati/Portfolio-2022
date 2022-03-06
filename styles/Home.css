@@ -127,7 +127,7 @@
 }
 
 @media (max-width: 1150px) {
-  .mainSection {
+  .main-section {
     flex-direction: column;
   }
   .intro-text {

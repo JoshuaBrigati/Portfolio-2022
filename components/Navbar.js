@@ -39,7 +39,7 @@ const Navbar = () => {
             <ReactScrollLink to="about" spy={true} smooth={true} offset={-125}>About</ReactScrollLink>
             <ReactScrollLink to="projects" spy={true} smooth={true} offset={-125}>Projects</ReactScrollLink>
             {/* <ReactScrollLink to="faq-section" spy={true} smooth={true}>Contact</ReactScrollLink> */}
-            <a href="/2022-Resume.pdf" className="resume-link">Resume</a>
+            <a href="/JoshuaBrigati-Resume.pdf" className="resume-link">Resume</a>
         </div>
       </header>
       <div className="mobile-header">
@@ -65,7 +65,7 @@ const Navbar = () => {
                   <ReactScrollLink to="faq-section" spy={true} smooth={true} onClick={() => handleHamburgerClick()}>Contact</ReactScrollLink>
                 </li> */}
               </ol>
-              <a href="/2022-Resume.pdf" className="resume-link">Resume</a>
+              <a href="/JoshuaBrigati-Resume.pdf" className="resume-link">Resume</a>
             </nav>
           </aside>
         </div>

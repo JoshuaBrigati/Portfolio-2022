@@ -1,4 +1,4 @@
-.projectsSection {
+.projects-section {
   margin: 5em 0 15em 0;
   height: 80vh;
   margin: 0px auto;
@@ -7,15 +7,15 @@
   margin-bottom: 100px;
 }
 
-.projectWrapper {
+.project-wrapper {
   display: flex;
 }
 
-.projectContent {
+.project-content {
   max-width: 500px;
 }
 
-.projectOverline {
+.project-overline {
   margin: 10px 0px;
   color: rgb(109, 131, 242);
   font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
@@ -23,7 +23,7 @@
   font-weight: 400;
 }
 
-.projectTitle {
+.project-title {
   color: #ccd6f6;
   font-size: 28px;
   z-index: 9999;
@@ -31,17 +31,17 @@
 
 }
 
-.projectTitle:hover {
+.project-title:hover {
   color: rgb(109, 131, 242);
 }
 
 @media (min-width: 768px) {
-  .projectTitle {
+  .project-title {
     margin: 0px 0px 20px;
   }
 }
 
-.projectDescription {
+.project-description {
   box-shadow: 0 10px 30px -15px rgba(2,12,27,0.7);
   transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
   position: relative;
@@ -54,7 +54,7 @@
   font-family: 'Montserrat', 'sans-serif';
 }
 
-.projectTechList {
+.project-tech-list {
   display: flex;
   flex-wrap: wrap;
   position: relative;
@@ -64,12 +64,12 @@
   list-style: none;
 }
 
-.projectsSection:nth-of-type(2n+1) .projectTechList {
+.projects-section:nth-of-type(2n+1) .project-tech-list {
   -webkit-box-pack: end;
   justify-content: flex-end;
 }
 
-.projectsSection .projectTechList li {
+.projects-section .project-tech-list li {
   margin: 0px 20px 5px 0px;
   color: #a8b2d1;
   font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
@@ -77,7 +77,7 @@
   white-space: nowrap;
 }
 
-.projectsSection:nth-of-type(2n+1) .projectTechList li {
+.projects-section:nth-of-type(2n+1) .project-tech-list li {
   margin: 0px 0px 5px 20px;
 }
 
@@ -99,7 +99,7 @@
   padding: 10px;
 }
 
-.projectsSection .project-image {
+.projects-section .project-image {
   transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
   position: relative;
   z-index: 1;
@@ -108,48 +108,58 @@
 }
 
 @media (max-width: 1050px) {
-  .projectContent {
+  .project-content {
     width: 75%;
   }
 }
 
 @media (max-width: 925px) {
-  .projectContent {
+  .project-content {
     width: 100%;
   }
 }
 
 @media (max-width: 810px) {
-  .projectContent {
+  .project-content {
     width: 150%;
   }
 }
 
-@media (max-width: 650px) {
-  .projectTitle {
+@media (max-width: 950px) {
+  .project-title {
     margin-top: 0.5em;
   }
-  .projectDescription {
-    margin-top: 150px;
+  .project-description {
+    margin-top: 190px;
     width: 70%;
   }
-  .projectsSection .project-image {
+  .projects-section .project-image {
     position: absolute;
-    width: 300px;
+    width: 400px;
     margin-left: 75px;
-    margin-top: 85px;
+    margin-top: 75px;
+  }
+}
+
+@media (max-width: 690px) {
+  .project-description {
+    margin-top: 130px;
+    width: 70%;
+  }
+  .projects-section .project-image {
+    width: 300px;
   }
 }
 
 @media (max-width: 525px) {
-  .projectTitle {
+  .project-title {
     margin-top: 0.5em;
   }
-  .projectDescription {
+  .project-description {
     margin-top: 225px;
     width: 100%;
   }
-  .projectsSection .project-image {
+  .projects-section .project-image {
     position: absolute;
     width: 300px;
     margin: 85px auto;
@@ -157,13 +167,13 @@
 }
 
 @media (max-width: 430px) {
-  .projectDescription {
-    margin-top: 150px;
+  .project-description {
+    margin-top: 190px;
     width: 100%;
   }
-  .projectsSection .project-image {
+  .projects-section .project-image {
     position: absolute;
-    width: 200px;
+    width: 250px;
     margin: 85px auto;
   }
 }

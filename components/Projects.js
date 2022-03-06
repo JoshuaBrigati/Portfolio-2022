@@ -5,24 +5,24 @@ import { faDiscord, faTwitter } from '@fortawesome/free-brands-svg-icons'
 
 const Projects = () => {
   return (
-    <section className="projectsSection" id='projects'>
-      <article className="projectWrapper">
-        <div className="projectContent">
-          <p className="projectOverline">
+    <section className="projects-section" id='projects'>
+      <article className="project-wrapper">
+        <div className="project-content">
+          <p className="project-overline">
             Featured Project
           </p>
-          <h3 className="projectTitle">
+          <h3 className="project-title">
             <a href="https://simpleplanets.com/" rel="noopener noreferrer" target="_blank">
               SimplePlanets
             </a>
           </h3>
-          <div className="projectDescription">
+          <div className="project-description">
             <p>
               I created 99 individual layers for planets consisting of planet colors, continents, clouds, icecaps, moons and more.
               Those layers were then compiled to create 10,000 unique images. I then created a Solidity Smart Contract that allows users to mint a random NFT and splits 10% of the fee for distribution to all NFT holders and holds another 10% for giveaways at different minting tiers. This was deployed to the Binance Smart Chain. I created a DApp for minting and info about the project. That was made with NextJS and used ethers.js to interact with my deployed smart contract.
             </p>
           </div>
-          <ul className="projectTechList">
+          <ul className="project-tech-list">
             <li>Next.JS</li>
             <li>Solidity</li>
             <li>Javascript</li>
@@ -61,7 +61,6 @@ const Projects = () => {
           </a>
         </div>
       </article>
-      <article className=''></article>
     </section>
   )
 }
