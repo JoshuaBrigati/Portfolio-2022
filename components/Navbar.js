@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { Link as ReactScrollLink} from 'react-scroll';
 import Link from 'next/link';
+import { motion } from "framer-motion";
 
 const Navbar = () => {
   const [hasScroll, setHasScroll] = useState(false);
@@ -37,8 +38,7 @@ const Navbar = () => {
           <div className="right-side">
             <ReactScrollLink activeClass="active" to="main" spy={true} smooth={true} offset={-125}>Main</ReactScrollLink>
             <ReactScrollLink to="about" spy={true} smooth={true} offset={-125}>About</ReactScrollLink>
-            <ReactScrollLink to="projects" spy={true} smooth={true} offset={-125}>Projects</ReactScrollLink>
-            {/* <ReactScrollLink to="faq-section" spy={true} smooth={true}>Contact</ReactScrollLink> */}
+            <ReactScrollLink to="projects" spy={true} smooth={true} offset={-125}>Projects</ReactScrollLink>\
             <a href="/JoshuaBrigati-Resume.pdf" className="resume-link">Resume</a>
         </div>
       </header>
@@ -61,9 +61,6 @@ const Navbar = () => {
                 <li>
                   <ReactScrollLink to="projects" spy={true} smooth={true} offset={-125} onClick={() => handleHamburgerClick()}>Projects</ReactScrollLink>
                 </li>
-                {/* <li>
-                  <ReactScrollLink to="faq-section" spy={true} smooth={true} onClick={() => handleHamburgerClick()}>Contact</ReactScrollLink>
-                </li> */}
               </ol>
               <a href="/JoshuaBrigati-Resume.pdf" className="resume-link">Resume</a>
             </nav>
